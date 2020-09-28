@@ -1,0 +1,25 @@
+/*Helpers*/
+#wrapper {
+  margin: 0 auto;
+  width: 700px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.negro {
+  width: 100px;
+  height: 100px;
+  float: left; }
+
+.blanco {
+  width: 100px;
+  height: 100px;
+  float: left; }
+
+#fila-1 div:nth-child(even) {
+  background: black; }
+
+#fila-2 div:nth-child(odd) {
+  background: black; }

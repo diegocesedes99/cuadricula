@@ -1,0 +1,30 @@
+/*Helpers*/
+#wrapper{
+    margin: 0 auto;
+    width: 700px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.negro{
+    @include cuadro-negro;
+}
+
+.blanco{
+    @include cuadro-blanco;
+}
+
+#fila-1{
+    div:nth-child(even) {
+        background: black;
+    }
+}
+
+#fila-2{
+    div:nth-child(odd) {
+        background: black;
+    }
+}
